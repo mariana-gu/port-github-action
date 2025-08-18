@@ -37,7 +37,7 @@ inputs:
     default: '{}'
   team:
     required: false
-    description: 'The teams belonging of the entity'
+    description: 'The teams belonging to the entity'
   relations:
     required: false
     description: 'The related entities of the entity'
@@ -77,7 +77,7 @@ outputs:
   entity:
     description: 'The full JSON string entity'
   entities:
-    description: 'When using SEARCH operation, this is entities array output'
+    description: 'When using SEARCH operation, this is the entities array output'
 runs:
   using: 'node20'
   main: 'dist/index.js'
